@@ -28,14 +28,14 @@ jobs:
       - name: add drv megaraid_sas
         run: ./redpill_tool_chain.sh add https://raw.githubusercontent.com/pocopico/rp-ext/main/megaraid_sas/rpext-index.json         
         
-      - name: add drv mptsas
-        run: ./redpill_tool_chain.sh add https://raw.githubusercontent.com/pocopico/rp-ext/main/mptsas/rpext-index.json        
+      - name: del drv mptsas
+        run: ./redpill_tool_chain.sh del mptsas
+        
+      - name: del drv mpt2sas
+        run: ./redpill_tool_chain.sh del mpt2sas    
 
-      - name: add drv mpt2sas
-        run: ./redpill_tool_chain.sh add https://raw.githubusercontent.com/pocopico/rp-ext/main/mpt2sas/rpext-index.json       
-
-      - name: add drv mpt3sas
-        run: ./redpill_tool_chain.sh add https://raw.githubusercontent.com/pocopico/rp-ext/main/mpt3sas/rpext-index.json     
+      - name: del drv mpt3sas
+        run: ./redpill_tool_chain.sh del mpt3sas   
         
       - name: Build docker image
         run: ./redpill_tool_chain.sh build apollolake-7.0.1-42218
