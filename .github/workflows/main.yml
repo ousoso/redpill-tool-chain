@@ -25,6 +25,9 @@ jobs:
       - name: Chmod
         run: chmod 0755 ./redpill_tool_chain.sh
         
+      - name: add drv megaraid_sas
+        run: ./redpill_tool_chain.sh add https://raw.githubusercontent.com/pocopico/rp-ext/main/megaraid_sas/rpext-index.json         
+        
       - name: add drv mptsas
         run: ./redpill_tool_chain.sh add https://raw.githubusercontent.com/pocopico/rp-ext/main/mptsas/rpext-index.json        
 
