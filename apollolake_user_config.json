@@ -1,10 +1,9 @@
 {
   "extra_cmdline": {
-    "pid": "0x6545",
-    "vid": "0x0930",
+    "pid": "0x3234",
+    "vid": "0x1221",
     "sn": "1941PDN788107",
-    "mac1": "001132AE2B81",
-    "mac2": "001132AE2B82"
+    "mac": "001132AE2B81"
   },
   "synoinfo": {
     "maxdisks": "24",
