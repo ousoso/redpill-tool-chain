@@ -28,13 +28,13 @@ jobs:
       - name: add drv megaraid_sas
         run: ./redpill_tool_chain.sh add https://raw.githubusercontent.com/pocopico/rp-ext/main/megaraid_sas/rpext-index.json         
         
-      - name: del drv mptsas
+      - name: del drv pocopico.mptsas
         run: ./redpill_tool_chain.sh del mptsas
         
-      - name: del drv mpt2sas
+      - name: del drv pocopico.mpt2sas
         run: ./redpill_tool_chain.sh del mpt2sas    
 
-      - name: del drv mpt3sas
+      - name: del drv pocopico.mpt3sas
         run: ./redpill_tool_chain.sh del mpt3sas   
         
       - name: Build docker image
