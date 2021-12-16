@@ -31,6 +31,9 @@ jobs:
       - name: add drv mpt2sas
         run: ./redpill_tool_chain.sh add https://raw.githubusercontent.com/pocopico/rp-ext/main/mpt2sas/rpext-index.json       
 
+      - name: add drv mpt3sas
+        run: ./redpill_tool_chain.sh add https://raw.githubusercontent.com/pocopico/rp-ext/main/mpt3sas/rpext-index.json     
+        
       - name: Build docker image
         run: ./redpill_tool_chain.sh build apollolake-7.0.1-42218
 
