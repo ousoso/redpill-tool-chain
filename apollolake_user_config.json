@@ -3,11 +3,11 @@
     "pid": "0x3234",
     "vid": "0x1221",
     "sn": "1941PDN788107",
-    "mac1": "001132AE2B81"
+    "mac1": "FCAA146EABC4"
   },
   "synoinfo": {
     "maxdisks": "24",
-    "maxlanport": "4",
+    "maxlanport": "2",
     "usbportcfg": "0x30000",
     "esataportcfg": "0x0",
     "internalportcfg": "0xffff"
